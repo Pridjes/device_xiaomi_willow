@@ -6,7 +6,7 @@
 
 BOARD_VENDOR := xiaomi
 
-DEVICE_PATH := device/xiaomi/ginkgo
+DEVICE_PATH := device/xiaomi/willow
 
 # Architecture
 TARGET_ARCH := arm64
@@ -49,7 +49,7 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/xiaomi/ginkgo
-TARGET_KERNEL_CONFIG := vendor/ginkgo-perf_defconfig
+TARGET_KERNEL_CONFIG := vendor/willow-perf_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM := trinket
@@ -124,8 +124,8 @@ TARGET_PROVIDES_KEYMASTER := true
 TARGET_USES_MEDIA_EXTENSIONS := true
 
 # Vendor init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_ginkgo
-TARGET_RECOVERY_DEVICE_MODULES := libinit_ginkgo
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_willow
+TARGET_RECOVERY_DEVICE_MODULES := libinit_willow
 
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
@@ -209,4 +209,4 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
--include vendor/xiaomi/ginkgo/BoardConfigVendor.mk
+-include vendor/xiaomi/willow/BoardConfigVendor.mk
