@@ -1446,8 +1446,8 @@ vendor/lib64/libsdmextension.so
 vendor/lib64/libtinyxml2_1.so
 
 # Graphics (Vulkan) - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
-vendor/lib/hw/vulkan.trinket.so|83633155c116a8728ee9a1dee32c082d6cb1cbc1
-vendor/lib64/hw/vulkan.trinket.so|6c9bf7bd6b5ac96cea83aa63bf7f10e37db68e62
+vendor/lib/hw/vulkan.trinket.so|f4ebce41a1f7fad72250b19a133fb5630601caaa
+vendor/lib64/hw/vulkan.trinket.so|a6353fe423bbe2a273a2639bb79708f385863845
 
 # IO Prefetcher - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
 vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|98c38e3647a6c286e5bfb8b271827328f6c04148
