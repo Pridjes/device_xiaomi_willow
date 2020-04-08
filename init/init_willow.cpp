@@ -58,6 +58,6 @@ void property_override_dual(char const system_prop[], char const vendor_prop[],
 void vendor_load_properties()
 {
     // fingerprint
-    property_override("ro.build.description", "willow-user 9 PKQ1.190616.001 9.12.26 release-keys");
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:10/QQ1B.191205.011/5974828:user/release-keys");
+    property_override("ro.build.description", "xiaomi/willow_eea/willow:9/PKQ1.190616.001/V11.0.7.0.PCXEUXM:user/release-keys");
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:10/QQ2A.200405.005/6254899:user/release-keys");
 }
